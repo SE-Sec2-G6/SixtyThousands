@@ -1,4 +1,4 @@
-# SE_Sec2_G6
+# Lab#4 - Configuration Management Using git
 SC313004 Software Engineering ภาคปกติ Section 2 Group 6
 - 643020476-9	นายธนาบดี มุ่งรวยกลาง	TanabodeeM
 - 643020490-5   นายวงศกร แสงสุข wongsakornss
