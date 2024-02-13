@@ -18,5 +18,5 @@
  *}
 
 <section id="ps_cashondelivery-paymentOptions-additionalInformation">
-  <p>{l s='You pay for the merchandise upon delivery' d='Modules.Cashondelivery.Shop'}</p>
+  <p>{l s='Kbank 099999999999 KKU' d='Modules.Cashondelivery.Shop'}</p>
 </section>

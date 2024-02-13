@@ -88,7 +88,7 @@
 
       {elseif $field.type === 'checkbox'}
 
-        {block name='form_field_item_checkbox'}
+        <!-- {block name='form_field_item_checkbox'}
           <span class="custom-checkbox">
             <label>
               <input name="{$field.name}" type="checkbox" value="1" {if $field.value}checked="checked"{/if} {if $field.required}required{/if}>
@@ -96,7 +96,7 @@
               {$field.label nofilter}
             </label>
           </span>
-        {/block}
+        {/block} -->
 
       {elseif $field.type === 'date'}
 
@@ -131,26 +131,13 @@
           </div>
         {/block}
 
-      {elseif $field.type === 'password'}
+      <!-- {elseif $field.type === 'password'}
 
         {block name='form_field_item_password'}
           <div class="input-group js-parent-focus">
-            <input
-              id="field-{$field.name}"
-              class="form-control js-child-focus js-visible-password"
-              name="{$field.name}"
-              aria-label="{l s='Password input' d='Shop.Forms.Help'}"
-              type="password"
-              {if isset($configuration.password_policy.minimum_length)}data-minlength="{$configuration.password_policy.minimum_length}"{/if}
-              {if isset($configuration.password_policy.maximum_length)}data-maxlength="{$configuration.password_policy.maximum_length}"{/if}
-              {if isset($configuration.password_policy.minimum_score)}data-minscore="{$configuration.password_policy.minimum_score}"{/if}
-              {if $field.autocomplete}autocomplete="{$field.autocomplete}"{/if}
-              value=""
-              pattern=".{literal}{{/literal}5,{literal}}{/literal}"
-              {if $field.required}required{/if}
-            >
-            <span class="input-group-btn">
-              <button
+          
+            <span class="input-group-btn"> -->
+              <!-- <button
                 class="btn"
                 type="button"
                 data-action="show-password"
@@ -158,8 +145,8 @@
                 data-text-hide="{l s='Hide' d='Shop.Theme.Actions'}"
               >
                 {l s='Show' d='Shop.Theme.Actions'}
-              </button>
-            </span>
+              </button> 
+            </span> -->
           </div>
         {/block}
 

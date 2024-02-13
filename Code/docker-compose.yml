@@ -13,7 +13,7 @@ services:
       - dbdata:/var/lib/mysql
   prestashop:
     container_name: prestashop
-    image: tanabodeem/prestashop:latest
+    image: rxuby/prestashop:latest
     restart: unless-stopped
     depends_on:
       - db
@@ -25,17 +25,17 @@ services:
       DB_USER: root
       DB_PASSWD: admin
       PS_FOLDER_ADMIN: admin4577
-      PS_FOLDER_INSTALL: install
+      PS_FOLDER_INSTALL: install4577
     networks:
       - prestashop_network
     volumes:
-      - ./controllers:/var/www/html/controllers
       - ./img:/var/www/html/img
       - ./template:/var/www/html/template
       - ./themes:/var/www/html/themes
-      - ./pdf:/var/www/html/pdf
+      - ./controllers:/var/www/html/controllers
       - ./classes:/var/www/html/classes
       - ./modules:/var/www/html/modules
+      - ./pdf:/var/www/html/pdf
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin

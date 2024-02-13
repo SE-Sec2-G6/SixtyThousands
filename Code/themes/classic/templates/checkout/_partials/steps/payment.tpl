@@ -155,4 +155,7 @@
   </div>
 
   {hook h='displayPaymentByBinaries'}
+
 {/block}
+
+
