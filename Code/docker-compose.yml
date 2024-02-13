@@ -33,6 +33,9 @@ services:
       - ./img:/var/www/html/img
       - ./template:/var/www/html/template
       - ./themes:/var/www/html/themes
+      - ./pdf:/var/www/html/pdf
+      - ./classes:/var/www/html/classes
+      - ./modules:/var/www/html/modules
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
