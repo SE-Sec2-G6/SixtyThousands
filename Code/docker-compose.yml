@@ -29,13 +29,10 @@ services:
     networks:
       - prestashop_network
     volumes:
-      - type: bind
-        source: ./modules/CP-Module # local path to the module
-        target: /var/www/html/modules/CP-Module # path to be mounted in the container
-      - type: bind
-        source: ./themes/CP-Theme # local path to the theme
-        target:  /var/www/html/themes/CP-Theme # path to be mounted in the container
-      - ./psdata:/var/www/html
+      - ./controllers:/var/www/html/controllers
+      - ./img:/var/www/html/img
+      - ./template:/var/www/html/template
+      - ./themes:/var/www/html/themes
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
