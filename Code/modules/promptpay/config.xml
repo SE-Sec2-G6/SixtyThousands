@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>promptpay</name>
+    <displayName><![CDATA[Prompt Pay]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Accept payments by displaying Bank account number during the checkout.]]></description>
+    <author><![CDATA[Yijung]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>
