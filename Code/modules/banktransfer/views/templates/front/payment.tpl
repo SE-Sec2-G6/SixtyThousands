@@ -24,10 +24,6 @@
                             <td style="border: 2px solid #969696;  text-align:left; padding:0.8em 1.5em;">549-1-00001-7(10)</td>
                         </tr>
                         <tr>
-                            <td style="border: 2px solid #969696; text-align:left; padding:0.8em 1.5em;">PromptPay Number</td>
-                            <td style="border: 2px solid #969696; text-align:left; padding:0.8em 1.5em;">0994000391528</td>
-                        </tr>
-                        <tr>
                             <td style="border: 2px solid #969696;  text-align:left; padding:0.8em 1.5em;">Branch</td>
                             <td style="border: 2px solid #969696;  text-align:left; padding:0.8em 1.5em;">Lotus Khon Kaen Branch</td>
                         </tr>
