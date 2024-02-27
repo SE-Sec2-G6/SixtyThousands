@@ -64,7 +64,7 @@ class OnlinePayment extends PaymentModule
     {
         $OnlinePaymentOption = new PaymentOption();
         $OnlinePaymentOption->setModuleName($this->name)
-                ->setCallToActionText($this->l('Online Payment'))
+                ->setCallToActionText($this->l('QR Code'))
                 ->setAction($this->context->link->getModuleLink($this->name, 'payment', [], true))
                 ->setAdditionalInformation($this->fetch('module:onlinepayment/views/templates/hook/onlinepayment_intro.tpl'));
         
