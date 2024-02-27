@@ -9,3 +9,6 @@ SC313004 Software Engineering ภาคปกติ Section 2 Group 6
 
 # Adapt Blueprint
 Link: https://miro.com/app/board/uXjVNvYL6DM=/?share_link_id=652246653420
+
+# UAT 
+Link: https://docs.google.com/spreadsheets/d/13nycjxN_I7ag8NYnxHTZNbsmk31xrDqSo27KjOJELtk/edit?usp=sharing
