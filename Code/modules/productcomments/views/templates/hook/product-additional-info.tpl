@@ -27,10 +27,10 @@
 <div class="product-comments-additional-info">
   {if $nb_comments == 0}
     {if $post_allowed}
-      <button class="btn btn-comment post-product-comment">
+      <!-- <button class="btn btn-comment post-product-comment">
         <i class="material-icons edit" data-icon="edit"></i>
         {l s='Write your review' d='Modules.Productcomments.Shop'}
-      </button>
+      </button> -->
     {/if}
   {else}
     {include file='module:productcomments/views/templates/hook/average-grade-stars.tpl' grade=$average_grade}

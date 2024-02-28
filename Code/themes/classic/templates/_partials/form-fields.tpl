@@ -67,7 +67,7 @@
 
       {elseif $field.type === 'radio-buttons'}
 
-        {block name='form_field_item_radio'}
+        <!-- {block name='form_field_item_radio'}
           {foreach from=$field.availableValues item="label" key="value"}
             <label class="radio-inline" for="field-{$field.name}-{$value}">
               <span class="custom-radio">
@@ -84,7 +84,7 @@
               {$label}
             </label>
           {/foreach}
-        {/block}
+        {/block} -->
 
       {elseif $field.type === 'checkbox'}
 

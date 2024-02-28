@@ -17,7 +17,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
  *}
 
-<div class="tabs">
+<!-- <div class="tabs">
     <div class="js-mailalert text-center" data-url="{url entity='module' name='ps_emailalerts' controller='actions' params=['process' => 'add']}">
     {if empty($has_notification)}
         {if !empty($email)}
@@ -41,4 +41,4 @@
         <article class="mt-1 alert alert-info" role="alert">{l s='You will be notified when this product is available.' d='Modules.Emailalerts.Shop'}</article>
     {/if}
     </div>
-</div>
+</div> -->

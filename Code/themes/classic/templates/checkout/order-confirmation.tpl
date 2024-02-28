@@ -12,7 +12,7 @@
               </h3>
             {/block}
 
-            <p>
+            <!-- <p>
               {l s='An email has been sent to your mail address %email%.' d='Shop.Theme.Checkout' sprintf=['%email%' => $order_customer.email]}
               {if $order.details.invoice_url}
                 {* [1][/1] is for a HTML tag. *}
@@ -25,7 +25,7 @@
                   ]
                 }
               {/if}
-            </p>
+            </p> -->
 
             {block name='hook_order_confirmation'}
               {$HOOK_ORDER_CONFIRMATION nofilter}
@@ -59,12 +59,12 @@
             <ul>
               <li id="order-reference-value">{l s='Order reference: %reference%' d='Shop.Theme.Checkout' sprintf=['%reference%' => $order.details.reference]}</li>
               <li>{l s='Payment method: %method%' d='Shop.Theme.Checkout' sprintf=['%method%' => $order.details.payment]}</li>
-              {if !$order.details.is_virtual}
+              <!-- {if !$order.details.is_virtual}
                 <li>
                   {l s='Shipping method: %method%' d='Shop.Theme.Checkout' sprintf=['%method%' => $order.carrier.name]}<br>
                   <em>{$order.carrier.delay}</em>
                 </li>
-              {/if}
+              {/if} -->
               {if $order.details.recyclable}
                 <li>  
                   <em>{l s='You have given permission to receive your order in recycled packaging.' d="Shop.Theme.Customeraccount"}</em>

@@ -91,23 +91,23 @@ class CustomerFormatterCore implements FormFormatterInterface
     {
         $format = [];
 
-        $genders = Gender::getGenders($this->language->id);
-        if ($genders->count() > 0) {
-            $genderField = (new FormField())
-                ->setName('id_gender')
-                ->setType('radio-buttons')
-                ->setLabel(
-                    $this->translator->trans(
-                        'Social title',
-                        [],
-                        'Shop.Forms.Labels'
-                    )
-                );
-            foreach ($genders as $gender) {
-                $genderField->addAvailableValue($gender->id, $gender->name);
-            }
-            $format[$genderField->getName()] = $genderField;
-        }
+        // $genders = Gender::getGenders($this->language->id);
+        // if ($genders->count() > 0) {
+        //     $genderField = (new FormField())
+        //         ->setName('id_gender')
+        //         ->setType('radio-buttons')
+        //         ->setLabel(
+        //             $this->translator->trans(
+        //                 'Social title',
+        //                 [],
+        //                 'Shop.Forms.Labels'
+        //             )
+        //         );
+        //     foreach ($genders as $gender) {
+        //         $genderField->addAvailableValue($gender->id, $gender->name);
+        //     }
+        //     $format[$genderField->getName()] = $genderField;
+        // }
 
         $format['firstname'] = (new FormField())
             ->setName('firstname')

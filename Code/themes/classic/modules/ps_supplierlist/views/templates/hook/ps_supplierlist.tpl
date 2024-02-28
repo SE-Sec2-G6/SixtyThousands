@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-<div id="search_filters_suppliers">
+<!-- <div id="search_filters_suppliers">
   <section class="facet">
     {if $display_link_supplier}
       <a href="{$page_link}" class="h6 text-uppercase facet-label" title="{l s='Suppliers' d='Shop.Theme.Catalog'}">
@@ -43,4 +43,4 @@
       {/if}
     </div>
   </section>
-</div>
+</div> -->

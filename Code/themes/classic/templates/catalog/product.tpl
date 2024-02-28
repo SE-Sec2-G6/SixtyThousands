@@ -152,7 +152,7 @@
                          {if $product.description} aria-selected="true"{/if}>{l s='Description' d='Shop.Theme.Catalog'}</a>
                     </li>
                   {/if}
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a
                       class="nav-link{if !$product.description} active js-product-nav-active{/if}"
                       data-toggle="tab"
@@ -160,7 +160,7 @@
                       role="tab"
                       aria-controls="product-details"
                       {if !$product.description} aria-selected="true"{/if}>{l s='Product Details' d='Shop.Theme.Catalog'}</a>
-                  </li>
+                  </li> -->
                   {if $product.attachments}
                     <li class="nav-item">
                       <a

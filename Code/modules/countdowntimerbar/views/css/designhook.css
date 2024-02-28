@@ -1,0 +1,73 @@
+.divtong{
+    width: 100%;
+    text-align:center;
+	float:right;
+}
+.txtContent,
+.txtContent p{
+	display:inline-block;
+	color:white;
+	font-size:16px;
+}
+.div_time{
+	border-radius:5px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.number{
+	margin:auto;
+	color:white;
+    font-size: 20.8px;
+    font-weight: 600;
+	float:left;
+	border-radius:4px;
+}
+.font{
+	color:white;
+	margin: auto;
+	float:left;
+}
+.share{
+	padding: 0 10px 0 10px;
+	float:left;
+}
+.khung{
+	display:inline-block;
+}
+a{
+	display:inline-block;
+}
+.btnclick{
+	display:inline-block;
+    border-radius: 2px;
+    margin: 12px;
+    font-size: 16px;
+	text-decoration: underline;
+}
+#icon1{
+    display: inline-block;
+	cursor:pointer;
+	background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+	z-index:5004;
+	height: 29px;
+    width: 30px;
+	margin: 8px 20px 0 0;
+	border-radius: 50%;
+	    
+}
+.All{
+    z-index: 55554;
+	width:100%;
+}
+.cotdoc{
+	border-left: 2px dotted white;
+    line-height: 1;
+}
+.up{
+	background-position:5px 5px;
+}
+.down{
+	background-position:5px -64px;
+}

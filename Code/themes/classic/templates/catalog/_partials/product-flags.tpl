@@ -22,10 +22,43 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-{block name='product_flags'}
+<!-- {block name='product_flags'}
     <ul class="product-flags js-product-flags">
         {foreach from=$product.flags item=flag}
             <li class="product-flag {$flag.type}">{l s='Pre-Order'}</li>
         {/foreach}
     </ul>
+{/block} -->
+
+<!-- {block name='product_flags'}
+    <ul class="product-flags js-product-flags">
+        {foreach from=$product.flags item=flag}
+            <li class="product-flag {$flag.type}">{$flag.label}</li>
+        {/foreach}
+    </ul>
+{/block} -->
+
+<!-- {block name='product_flags'}
+    <ul class="product-flags js-product-flags">
+        {foreach from=$product.flags item=flag}
+            {if $flag.label == 'NEW'}
+                <li class="product-flag {$flag.type}">คำที่คุณต้องการแสดงแทน 'NEW'</li>
+            {else}
+                <li class="product-flag {$flag.type}">{$flag.label}</li>
+            {/if}
+        {/foreach}
+    </ul>
+{/block} -->
+
+{block name='product_flags'}
+    <ul class="product-flags js-product-flags">
+        {foreach from=$product.flags item=flag}
+            {if $flag.type == 'new'}
+                <li class="product-flag {$flag.type}">{l s='PRE-ORDER'}</li>
+            {else}
+                <li class="product-flag {$flag.type}" style="background-color: rgb(232, 53, 53);">{$flag.label}</li>
+            {/if}
+        {/foreach}
+    </ul>
 {/block}
+
