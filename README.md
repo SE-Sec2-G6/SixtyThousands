@@ -15,3 +15,6 @@ Link: https://docs.google.com/spreadsheets/d/13nycjxN_I7ag8NYnxHTZNbsmk31xrDqSo2
 
 # Sprint Backlog
 Link: https://docs.google.com/spreadsheets/d/1X_E_vGDy2XKH8So5p7dxw2o62m6R-FF9UYl_7P9O190/edit?usp=sharing
+
+# Docker Image
+Link: https://hub.docker.com/r/rxuby/prestashop
